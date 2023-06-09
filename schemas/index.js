@@ -4,6 +4,7 @@ import education from './education'
 import experience from './experience'
 import project from './project'
 import skill from './skill'
+import certification from './certification'
 
 export const schemaTypes = [
   author,
@@ -12,4 +13,5 @@ export const schemaTypes = [
   experience,
   project,
   skill,
+  certification,
 ]
