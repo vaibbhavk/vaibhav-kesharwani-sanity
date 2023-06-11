@@ -12,7 +12,7 @@ export default defineType({
     //   url: "https://milo-five.vercel.app/",
     //   github: "https://github.com/vaibbhavk/milo",
     //   tech: ["React", "Firebase", "MUI"],
-    //   doc: "https://........................."
+    //   doc_url: "https://........................."
     // },
 
     defineField({
@@ -44,7 +44,7 @@ export default defineType({
       type: 'string',
     }),
     defineField({
-      name: 'doc',
+      name: 'doc_url',
       title: 'Documentation',
       type: 'string',
     }),
