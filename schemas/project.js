@@ -39,13 +39,13 @@ export default defineType({
       type: 'string',
     }),
     defineField({
-      name: 'github',
-      title: 'GitHub',
+      name: 'github_url',
+      title: 'GitHub URL',
       type: 'string',
     }),
     defineField({
       name: 'doc_url',
-      title: 'Documentation',
+      title: 'Documentation URL',
       type: 'string',
     }),
     defineField({
